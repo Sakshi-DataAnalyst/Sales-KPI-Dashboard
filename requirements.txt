@@ -1,0 +1,47 @@
+# If app.py is inside the utils folder
+
+# Structure:
+
+# KPI_Python_Streamlit_SalesDB/
+# │
+# └── utils/
+#     ├── app.py            
+      |___  __init__.py
+#     └── insights.py
+
+WE used:
+• LIBRARIES: streamlit, pandas, plotly
+• LANGUAGES: Python
+• Editor: VS Code
+• Do in terminal:
+#pip install -r requirements.txt
+#after clicking terminal use:
+python -m streamlit run app.py #asthis showa no streamlit module found then in terminal bash search for:
+
+pip install streamlit #after installation is done check for its version present or not.
+# Streamlit, version 1.58.0 #still errror not resolved go for again 
+"""!pip install streamlit"""
+#then go for:
+python -m streamlit run utils/app.py
+#output is:  Welcome to Streamlit!
+
+    #   If you'd like to receive helpful onboarding emails, news, offers, promotions,
+    #   and the occasional swag, please enter your email address below. Otherwise,
+    #   leave this field blank.
+
+    #   Email: sakshi.sshah003@gmail.com
+
+#     Solution 1: Create a Blank File (Fastest Fix)
+# The easiest way to make Streamlit happy is to just give it the file it's looking for, even if it's completely empty.
+
+# Open Notepad (or any text editor).
+
+# Do not type anything in it. Leave it completely blank.
+
+# Click File > Save As...
+
+# In the file name box, paste the exact path from your error:
+# C:\Users\Sakshi\.streamlit\credentials.toml
+# (Make sure "Save as type" is set to All Files (.) so it doesn't accidentally save as a .txt file).
+
+# Save it and try running your Streamlit app again.
